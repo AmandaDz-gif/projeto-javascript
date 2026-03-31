@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>showromm</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div class="container">
+
+            <h1>Texto alterado com javaScript</h1>
+            <p>Clique nos botões para ver alert, prompt, confirm, DOM, eventos e notificação.</p>
+        </div>
+        <section>
+            <h2>Status</h2>
+            <p id="istatus">Aguardando ação...</p>
+            <p>
+                Cliques: <span id="iclique">0</span>
+                Horas: <span id="ihoras">00:00:00</span>
+            </p>
+        </section>
+
+        <section> 
+            <div class="G1B">
+            <h2>Interações básicas</h2>
+            <button id="ialert">Alert</button>
+            <button id="iconfirm">Confirm</button>
+            <button id="iprompt">Prompt</button>
+            <button id="iconsole">Console.log</button>
+            </div>
+        </section>
+
+        <section>
+            <div class="dom_event">
+                 <h2>DOM + Eventos</h2>
+                 <label for="iname">Digite seu nome:</label> 
+                 <br>
+                 <input type="text" id="iname">
+            </div>
+
+            <div class="G2B">
+                <button id="imostrar">Mostrar na tela</button>
+                <button id="imudar">Mudar título</button>
+                <button id="itrocar">Trocar tema</button>
+                <button id="isomar">Somar 2 números</button>
+            </div>
+
+            <p>Extra: passe o mouse no bloco abaixo &#128071;;</p>
+
+            <div id="imouse">
+                Saiu (mouseleave)
+            </div>
+        </section>
+    </main>
+    <div id="notificacao">
+        Mouse entrou na caixa!
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

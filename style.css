@@ -1,0 +1,80 @@
+body{
+    background-color:#0f172a;               
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+}
+
+main{
+    max-width: 1000px;
+    margin: auto;
+}
+
+.container{
+    margin: 25px 20px;
+    width: 90%;
+}
+
+section{
+    margin: 20px;
+    padding: 20px;
+    background-color: #082f49c2; 
+    border-radius: 10px;
+    border: 1px solid #ffffff31;
+}
+
+.G1B button{ 
+    padding: 10px;
+    margin: 10px;
+    border-radius: 8px;
+    border: none;
+    background-color: #38bdf8;;
+    color: black;
+    cursor: pointer;
+    width: 200px;
+    
+}
+
+input{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.411);
+    background-color: #0f172a9a;
+    color: white;
+    width: 800px;
+    text-align: center;
+}
+
+.G2B button{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 8px;
+    border: none;
+    background-color: #38bdf8;;
+    color: black;
+    cursor: pointer;
+    width: 200px;
+}
+
+#imouse{
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    border: 1px dotted white ;
+    background-color: #25314e86; 
+    color: white;
+    cursor: default;
+    width: 800px;
+    text-align: center;
+}
+
+#notificacao{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #1e293b;
+    padding: 10px 15px;
+    border-radius: 8px;
+    border: 1px solid #ffffff31;
+    display: none;
+}
