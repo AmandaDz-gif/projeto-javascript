@@ -68,6 +68,21 @@ input{
     text-align: center;
 }
 
+#imouse:hover{
+    transform: scale(1.02);
+}
+
+.light{
+    background-color: #f8fafc;
+    color: #0f172a;
+}
+
+.light section{
+       background-color: white;
+       box-shadow: 0 4px 12px rgba(30, 221, 255, 0.705);
+       border: 1px solid #38bdf8;
+}
+
 #notificacao{
     position: fixed;
     bottom: 20px;
@@ -77,4 +92,8 @@ input{
     border-radius: 8px;
     border: 1px solid #ffffff31;
     display: none;
+    opacity: 0;
+    transition: 0.3s;
 }
+
+
