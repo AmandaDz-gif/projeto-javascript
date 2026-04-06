@@ -56,6 +56,35 @@ input{
     width: 200px;
 }
 
+.light{
+    background-color: #f8fafc;
+    color: #0f172a;
+}
+
+.light section{
+       background-color: white;
+       box-shadow: 0 4px 12px rgba(30, 221, 255, 0.705);
+       border: 1px solid #38bdf8;
+}
+
+.light #notificacao{
+     background-color: #38bdf8;
+     color: white;
+     border: 1px solid #3861c2;
+}
+
+.light input{
+    background-color: #f8fafc;
+    color: #0f172a;
+    border: 1px solid #0f172a;
+}
+
+.light #imouse{
+     background-color: #f8fafc;
+    color: #0f172a;
+    border: 1px solid #0f172a;
+}
+
 #imouse{
     padding: 20px;
     margin: 10px;
@@ -69,18 +98,7 @@ input{
 }
 
 #imouse:hover{
-    transform: scale(1.02);
-}
-
-.light{
-    background-color: #f8fafc;
-    color: #0f172a;
-}
-
-.light section{
-       background-color: white;
-       box-shadow: 0 4px 12px rgba(30, 221, 255, 0.705);
-       border: 1px solid #38bdf8;
+    transform: scale(1.01);
 }
 
 #notificacao{

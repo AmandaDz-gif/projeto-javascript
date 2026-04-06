@@ -93,9 +93,11 @@ imudar.addEventListener("click", function(){
 // trocar o tema
 itrocar.addEventListener("click", function(){
     document.body.classList.toggle("light")
+
     if (document.body.classList.contains("light")){
         mudarStatus("Tema claro ativado")
         contarClique()
+        
     } else {
         mudarStatus("Tema escuro ativado")
         contarClique()
